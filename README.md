@@ -23,11 +23,11 @@ detections = detect_image(pilimg)
 ```bash
 pip install -r requirements.txt
 ```
-1. downoad yolo weights
+2. downoad yolo weights
 ```bash
 wget https://pjreddie.com/media/files/yolov3.weights -O config/yolov3.weights
 ```
-1. upload a `.mp4` video to `./videos` and run [object_tracking_Sort.ipynb](./object_tracking_Sort.ipynb)
+3. upload a `.mp4` video to `./videos` and run [object_tracking_Sort.ipynb](./object_tracking_Sort.ipynb)
 
 You can also ran [object_tracker.py](./object_tracker.py) to save the video with annotations
 
