@@ -2,14 +2,16 @@
 
 ## Yolo for object detection in Videos
 
-The basic logic for object detection in videos is:1. extract the frames from video using OpenCV:
+The basic logic for object detection in videos is:
+
+1. extract the frames from video using OpenCV:
 
 ```python
 cap = cv2.VideoCapture(videopath)
  _, frame = cap.read()
 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 ```
-1. apply yolo detection on the extracted frame
+2. apply yolo detection on the extracted frame
 
 ```python
 pilimg = Image.fromarray(frame)
