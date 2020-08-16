@@ -32,7 +32,7 @@ wget https://pjreddie.com/media/files/yolov3.weights -O config/yolov3.weights
 You can also ran [object_tracker.py](./object_tracker.py) to save the video with annotations
 
 
-References:
+## References:
 
 1. YOLOv3: https://pjreddie.com/darknet/yolo/
 1. YOLO paper: https://pjreddie.com/media/files/papers/YOLOv3.pdf
