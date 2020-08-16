@@ -34,7 +34,7 @@ You can also ran [object_tracker.py](./object_tracker.py) to save the video with
 
 References:
 
-YOLOv3: https://pjreddie.com/darknet/yolo/
-YOLO paper: https://pjreddie.com/media/files/papers/YOLOv3.pdf
-SORT paper: https://arxiv.org/pdf/1602.00763.pdf
-Alex Bewley's SORT implementation: https://github.com/abewley/sort
+1. YOLOv3: https://pjreddie.com/darknet/yolo/
+1. YOLO paper: https://pjreddie.com/media/files/papers/YOLOv3.pdf
+1. SORT paper: https://arxiv.org/pdf/1602.00763.pdf
+1. Alex Bewley's SORT implementation: https://github.com/abewley/sort
