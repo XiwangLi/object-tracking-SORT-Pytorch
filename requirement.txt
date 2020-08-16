@@ -1,0 +1,6 @@
+filterpy==1.4.5
+scikit-image==0.17.2
+torch==1.6.0
+torchvision==0.7.0
+PIL==7.2.0
+opencv-python==4.4.0.40

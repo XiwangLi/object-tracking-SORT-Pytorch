@@ -1,0 +1,6 @@
+./videos/*
+./images/*
+./config/*.weights
+./.ipynb_checkpoints
+./__pycache__
+./DS_Store
