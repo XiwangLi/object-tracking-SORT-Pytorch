@@ -1,6 +1,8 @@
 ./videos/*
 ./images/*
 ./config/*.weights
-./.ipynb_checkpoints
-./__pycache__
-./DS_Store
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+.DS_Store
+.vscode
