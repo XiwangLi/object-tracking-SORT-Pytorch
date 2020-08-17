@@ -33,6 +33,9 @@ wget https://pjreddie.com/media/files/yolov3.weights -O config/yolov3.weights
 
 You can also ran [object_tracker.py](./object_tracker.py) to save the video with annotations
 
+## Results
+<img src='video/traffic_1.gif'/>
+
 
 ## References:
 
