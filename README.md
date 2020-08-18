@@ -17,6 +17,14 @@ frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 pilimg = Image.fromarray(frame)
 detections = detect_image(pilimg)
 ```
+
+3. apply Kalman filter for detection estimation
+```python
+mot_tracker = Sort() 
+tracked_objects = mot_tracker.update(detections.cpu())
+```
+
+
 ## Object tracking in Videos using SORT
 [SORT (Simple Online and Realtime Tracking)](https://arxiv.org/pdf/1602.00763.pdf) combines object detection and [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) for object tracking. 
 
