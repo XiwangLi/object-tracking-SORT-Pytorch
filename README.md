@@ -42,7 +42,7 @@ wget https://pjreddie.com/media/files/yolov3.weights -O config/yolov3.weights
 You can also ran [object_tracking_Sort.py](./object_tracking_Sort.py) to save the video with annotations
 
 ## Results
-
+[![Traffic Tracking](./video/traffic_frame_1.jpg)](https://youtu.be/SNNbYUvBDy0)
 
 
 ## References:
