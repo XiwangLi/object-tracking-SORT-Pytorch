@@ -1,4 +1,4 @@
-./videos/*
+videos/*.mp4
 ./images/*
 ./config/*.weights
 .ipynb_checkpoints
